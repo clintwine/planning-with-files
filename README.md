@@ -55,6 +55,7 @@ See [docs/installation.md](docs/installation.md) for all installation methods.
 | OpenCode | ✅ Full Support | [OpenCode Setup](docs/opencode.md) | Personal/Project Skill |
 | Codex | ✅ Full Support | [Codex Setup](docs/codex.md) | Personal Skill |
 | FactoryAI Droid | ✅ Full Support | [Factory Setup](docs/factory.md) | Workspace/Personal Skill |
+| Antigravity | ✅ Full Support | [Antigravity Setup](docs/antigravity.md) | Workspace/Personal Skill |
 
 ## Documentation
 
@@ -70,6 +71,7 @@ See [docs/installation.md](docs/installation.md) for all installation methods.
 | [Codex Setup](docs/codex.md) | Codex IDE installation and usage |
 | [OpenCode Setup](docs/opencode.md) | OpenCode IDE installation, oh-my-opencode config |
 | [FactoryAI Droid Setup](docs/factory.md) | FactoryAI Droid integration guide |
+| [Antigravity Setup](docs/antigravity.md) | Antigravity IDE integration guide |
 
 ## Versions
 
