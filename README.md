@@ -20,7 +20,8 @@ A Claude Code plugin that transforms your workflow to use persistent markdown fi
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Skills-4285F4)](https://geminicli.com/docs/cli/skills/)
 [![Clawd CLI](https://img.shields.io/badge/Clawd%20CLI-Skills-FF6B6B)](https://docs.clawd.bot/tools/skills)
 [![Kiro](https://img.shields.io/badge/Kiro-Steering-00D4AA)](https://kiro.dev/docs/cli/steering/)
-[![Version](https://img.shields.io/badge/version-2.11.0-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
+[![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-Skills-9B59B6)](https://docs.sylph.ai/features/plugins-and-skills)
+[![Version](https://img.shields.io/badge/version-2.12.0-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
 [![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1)](https://getskillcheck.com)
 
 ## Quick Install
@@ -71,6 +72,7 @@ See [docs/installation.md](docs/installation.md) for all installation methods.
 | FactoryAI Droid | ✅ Full Support | [Factory Setup](docs/factory.md) | Workspace/Personal Skill |
 | Antigravity | ✅ Full Support | [Antigravity Setup](docs/antigravity.md) | Workspace/Personal Skill |
 | CodeBuddy | ✅ Full Support | [CodeBuddy Setup](docs/codebuddy.md) | Workspace/Personal Skill |
+| AdaL CLI (Sylph AI) | ✅ Full Support | [AdaL Setup](docs/adal.md) | Personal/Project Skills |
 
 > **Note:** If your IDE uses the legacy Rules system instead of Skills, see the [`legacy-rules-support`](https://github.com/OthmanAdi/planning-with-files/tree/legacy-rules-support) branch.
 
@@ -94,12 +96,14 @@ See [docs/installation.md](docs/installation.md) for all installation methods.
 | [FactoryAI Droid Setup](docs/factory.md) | FactoryAI Droid integration guide |
 | [Antigravity Setup](docs/antigravity.md) | Antigravity IDE integration guide |
 | [CodeBuddy Setup](docs/codebuddy.md) | CodeBuddy IDE integration guide |
+| [AdaL CLI Setup](docs/adal.md) | AdaL CLI / Sylph AI integration guide |
 
 ## Versions
 
 | Version | Features | Install |
 |---------|----------|---------|
-| **v2.11.0** (current) | `/plan` command for easier autocomplete | `claude plugins install OthmanAdi/planning-with-files` |
+| **v2.12.0** (current) | AdaL CLI / Sylph AI support | `claude plugins install OthmanAdi/planning-with-files` |
+| **v2.11.0** | `/plan` command for easier autocomplete | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
 | **v2.10.0** | Kiro steering files support | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
 | **v2.9.0** | Clawd CLI support | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
 | **v2.8.0** | Continue IDE support, POSIX sh compatibility fix | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
@@ -263,6 +267,8 @@ planning-with-files/
 ├── .cursor/                 # Cursor skills
 │   └── skills/
 ├── .kilocode/               # Kilo Code skills
+│   └── skills/
+├── .adal/                   # AdaL CLI / Sylph AI skills
 │   └── skills/
 ├── CHANGELOG.md
 ├── LICENSE
