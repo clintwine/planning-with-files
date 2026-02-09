@@ -2,6 +2,9 @@
 
 > **Work like Manus** — the AI agent company Meta acquired for **$2 billion**.
 
+[![Closed Issues](https://img.shields.io/github/issues-closed/OthmanAdi/planning-with-files?color=success)](https://github.com/OthmanAdi/planning-with-files/issues?q=is%3Aissue+is%3Aclosed)
+[![Closed PRs](https://img.shields.io/github/issues-pr-closed/OthmanAdi/planning-with-files?color=success)](https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Aclosed)
+
 <details>
 <summary><strong>💬 A Note from the Author</strong></summary>
 
